@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getAllTask = exports.deleteTask = exports.updateTask = exports.addTask = void 0;
+const addTask_1 = require("./addTask");
+Object.defineProperty(exports, "addTask", { enumerable: true, get: function () { return addTask_1.addTask; } });
+const updateTask_1 = require("./updateTask");
+Object.defineProperty(exports, "updateTask", { enumerable: true, get: function () { return updateTask_1.updateTask; } });
+const deleteTask_1 = require("./deleteTask");
+Object.defineProperty(exports, "deleteTask", { enumerable: true, get: function () { return deleteTask_1.deleteTask; } });
+const getAllTask_1 = require("./getAllTask");
+Object.defineProperty(exports, "getAllTask", { enumerable: true, get: function () { return getAllTask_1.getAllTask; } });

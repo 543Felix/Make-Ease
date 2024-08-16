@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getAllTaskRepo = exports.deleteTaskRepo = exports.getUsersRepo = exports.updateTaskRepo = exports.addTaskRepo = exports.updateUserDataRepo = exports.loginUserRepo = exports.registerUserRepo = void 0;
+const userRepository_1 = require("./userRepository");
+Object.defineProperty(exports, "registerUserRepo", { enumerable: true, get: function () { return userRepository_1.registerUserRepo; } });
+Object.defineProperty(exports, "loginUserRepo", { enumerable: true, get: function () { return userRepository_1.loginUserRepo; } });
+Object.defineProperty(exports, "updateUserDataRepo", { enumerable: true, get: function () { return userRepository_1.updateUserDataRepo; } });
+Object.defineProperty(exports, "getUsersRepo", { enumerable: true, get: function () { return userRepository_1.getUsersRepo; } });
+const taskRepository_1 = require("./taskRepository");
+Object.defineProperty(exports, "addTaskRepo", { enumerable: true, get: function () { return taskRepository_1.addTaskRepo; } });
+Object.defineProperty(exports, "updateTaskRepo", { enumerable: true, get: function () { return taskRepository_1.updateTaskRepo; } });
+Object.defineProperty(exports, "deleteTaskRepo", { enumerable: true, get: function () { return taskRepository_1.deleteTaskRepo; } });
+Object.defineProperty(exports, "getAllTaskRepo", { enumerable: true, get: function () { return taskRepository_1.getAllTaskRepo; } });

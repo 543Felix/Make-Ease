@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getUsers = exports.updateUserData = exports.registerNewUser = exports.userLogin = void 0;
+const login_1 = require("./login");
+Object.defineProperty(exports, "userLogin", { enumerable: true, get: function () { return login_1.userLogin; } });
+const register_1 = require("./register");
+Object.defineProperty(exports, "registerNewUser", { enumerable: true, get: function () { return register_1.registerNewUser; } });
+const updateuserData_1 = require("./updateuserData");
+Object.defineProperty(exports, "updateUserData", { enumerable: true, get: function () { return updateuserData_1.updateUserData; } });
+const getUsers_1 = require("./getUsers");
+Object.defineProperty(exports, "getUsers", { enumerable: true, get: function () { return getUsers_1.getUsers; } });
